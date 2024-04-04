@@ -321,7 +321,7 @@ def main():
     torch.set_printoptions(threshold=50000)
 
     # File paths
-    DATA_FILE = os.path.join(args.data_dir, "index_to_file_mapping.json")
+    DATA_FILE = os.path.join(args.data_dir, "index_to_file_mapping_train.json")
     VALID_FILE = os.path.join(args.data_dir, "index_to_file_mapping_val.json")
     VOCAL_FILE = os.path.join(args.cache_dir, "vocab")
     FILTER_WORD = os.path.join(args.cache_dir, "filter_word.txt")
